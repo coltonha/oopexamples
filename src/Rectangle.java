@@ -1,5 +1,5 @@
 
-public class Rectangle {
+public class Rectangle extends Shape2D{
     private int length,height;
 
     public Rectangle(){
@@ -16,7 +16,7 @@ public class Rectangle {
             height=newHeight;
         }
     }
-    
+
     public Rectangle(int newLength, int newHeight){
         setLength(newLength);
         setHeight(newHeight);

@@ -1,4 +1,4 @@
-public class Circle {
+public class Circle extends Shape2D{
     private double radius;
     public Circle(){
         radius=1.0;
